@@ -1,0 +1,171 @@
+
+h1 { color: rgb(247, 247, 247); font-size: 56px; font-variant-position: super;} 
+h2 {color:white ; font-style: italic; font-size: 38px;}
+h3 { color: white; font-size: 28px; font-style: italic;}
+h4 {color:black; font-size: 18px; padding: 15px; }
+h5 {color: black; font-size: 16px; padding: 15px;}
+h6 {color: black; font-size: 48px;}
+div {background-color: black ; font-size:size 54px;}
+article {background-color: whitesmoke; max-height: 640px; }
+header { background-color: black;}
+nav {background-color: white;}
+body {background-color:black;}
+main {background-color: white; max-height: 320px; padding: 40px;margin: 1rem;}
+p {color: black; font-size: 26px;}
+a {color: white;}
+title {color: red;}
+ol { color: white;}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;              
+}
+
+.contenedor.menu {
+    height: max-content;
+    padding-top: 120px;
+}
+
+.menu2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(2,auto);
+    justify-items: center;
+    
+    padding-top: 30px;
+    grid-row-gap: 5px;
+    
+}
+
+
+
+
+ul {list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 30px;
+    background-color: white;
+}
+ul li a {text-decoration: none; color: black; padding-inline: 20px;}
+
+ul li img {
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: white; 
+    width: 80%;
+    
+}
+
+.imagen2{ 
+    position:absolute ;
+    top: 250px ;
+    right: 5px;
+    width: 46%; 
+
+}
+
+.imagen1 {
+position: absolute;
+left: 30px;
+top: 15px;
+width: 20%;
+margin: 0%;
+}
+
+.redes1 {
+    
+    margin: 0px;
+    display: flex;
+    justify-content: right ;
+    width: 250px; 
+    gap: 1rem;    
+}
+
+.pedidos {font-size: 50px; margin-top: 35px; padding-top: 20px;}
+
+
+.promociones {
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 100%;
+padding-top: 25px;
+padding-left: 25px;
+}
+
+.listadodepromos {
+    font-size: 36px;
+    line-height: 50px;
+    text-decoration-color: aliceblue;
+    text-decoration: none;
+}
+
+.imagen3 {
+    position: relative;
+    top: 40px;
+
+}
+
+.contacto1 {
+    display: grid;
+    grid-template-areas: "contacto1";
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: auto;
+    padding-top: 5%;
+    background-image: url(../Imagenes/pexels-valeria-boltneva-1148084.jpg);    
+}
+
+.datos {
+    font-size:30px;
+    padding: 25px;
+    
+}
+    
+ 
+footer {background-color: white; font-style:italic; font-size: small;
+height: 160px; }
+
+@media screen and ( max-width: 768px) {
+    .main {
+        
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto ;
+        padding: auto;
+        
+
+    }
+    .index {
+        display: grid;
+        grid-template-columns:auto auto ;
+        grid-template-rows: auto auto;
+        background-color: aqua;
+        min-width: auto;
+           
+    }
+    .imagen2 {
+        display: grid;
+        align-content: center;
+    }
+    
+
+    }
+        
+     
+         
+            
+    
+
+ 
+     
+
+
+     
+
+
