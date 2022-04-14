@@ -17,8 +17,11 @@ title {color: red;}
 ol { color: white;}
 
 .menu {
-    display: flex;
-    justify-content: center;
+/*    display: flex;
+    justify-content: center;*/
+    font-style: italic;
+    border-radius: 15px;
+
     background: linear-gradient(0deg, rgb(191, 191, 194) 0%, rgb(145, 145, 153) 8%, rgba(239,243,245,1) 90%);              
 }
 
@@ -43,19 +46,19 @@ ol { color: white;}
 
 
 
-ul {list-style-type: none;
+/*ul {list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
 ul li {
     display: inline-block;
-    font-size: 30px;
+    font-size: auto;
     
 }
 ul li a {text-decoration: none; color: black; padding-inline: 20px;}
 
-ul li img {
+/*ul li img {
     
     display: flex;
     justify-content: space-around;
@@ -88,7 +91,9 @@ transform: translatex(25px);
     display: flex;
     justify-content: right ;
     width: 250px; 
-    gap: 1rem;    
+    gap: 1rem;
+    text-decoration: none;
+        
 }
 
 .pedidos {font-size: 50px; margin-top: 35px; padding-top: 20px;}
@@ -138,9 +143,9 @@ padding-left: 25px;
     padding-top: 3rem;
     padding-left: 3rem;
     background-color:white;
-    border-radius: 12px;
+    border-radius: 15px;
     border-color: black;
-    border-color: black;
+    
     
 }
 .disfrute {
