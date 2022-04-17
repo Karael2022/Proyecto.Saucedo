@@ -10,7 +10,7 @@ article {background-color: whitesmoke; max-height: 640px; }
 header { background-color: black; border-radius: 12px;}
 nav {background-color: white;}
 body {background-color:black;}
-main {background-color: white; padding: 40px;margin: 1rem; border-radius: 12px; border-color: black;}
+main {background-color: white; border-radius: 12px; border-color: black;}
 p {color: black; font-size: 26px;}
 a {color: white;}
 title {color: red;}
@@ -21,13 +21,14 @@ ol { color: white;}
     justify-content: center;*/
     font-style: italic;
     border-radius: 15px;
+    font-size: 18px;
 
     background: linear-gradient(0deg, rgb(191, 191, 194) 0%, rgb(145, 145, 153) 8%, rgba(239,243,245,1) 90%);              
 }
 
 .contenedor.menu {
     height: max-content;
-    padding-top: 120px;
+    padding-top: 12px;
 }
 
 .menu2 {
@@ -88,11 +89,12 @@ transform: translatex(25px);
 .redes1 {
     
     margin: 0px;
-    display: flex;
-    justify-content: right ;
+    display: inline-flex;
+    justify-content: center ;
     width: 250px; 
     gap: 1rem;
     text-decoration: none;
+    
         
 }
 
@@ -109,9 +111,9 @@ padding-left: 25px;
 }
 
 .listadodepromos {
-    font-size: 36px;
+    font-size: 26px;
     line-height: 50px;
-    text-decoration-color: aliceblue;
+    
     text-decoration: none;
 }
 
@@ -127,24 +129,26 @@ padding-left: 25px;
     grid-template-columns: 50% 50% ;
     grid-template-rows: auto;
     padding-top: 5%;
+    padding-left: 15px;
     background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(40, 40, 124) 31%, rgba(2,181,235,1) 90%);    
 }
 
 .datos {
     font-size:30px;
-    padding: 25px;
+    padding-right: 25px;
     
 }
     
- 
+
 .footer1 {
     font-style:italic; font-size: small;
-    height: 400px; 
-    padding-top: 3rem;
-    padding-left: 3rem;
-    background-color:white;
-    border-radius: 15px;
-    border-color: black;
+    height: 250px; 
+    
+    padding-left: 2rem;
+    background: linear-gradient(90deg, rgb(206, 206, 209) 0%, rgb(124, 124, 131) 8%, rgba(239,243,245,1) 90%);
+    border-radius: 3rem;
+    border-color: red;
+    
     
     
 }
@@ -173,7 +177,7 @@ padding-left: 25px;
         grid-template-rows: auto auto;
         background-color: aqua;
         min-width: auto;
-           
+    
     }
     .imagen2 {
         display: grid;
@@ -183,15 +187,6 @@ padding-left: 25px;
 
     }*/
         
-     
-         
-            
-    
 
- 
-     
-
-
-     
 
 
